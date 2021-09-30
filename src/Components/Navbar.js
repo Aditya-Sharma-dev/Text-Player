@@ -8,7 +8,7 @@ function Navbar(props) {
     >
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          {props.title}
+          <strong>{props.title}</strong>  
         </Link>
         <button
           className="navbar-toggler"
